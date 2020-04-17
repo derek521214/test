@@ -1,0 +1,5 @@
+<?php
+$xml = <<< XML
+<xml><appid><![CDATA[wxb78f1c836f6590e4]]></appid>\x0A<attach><![CDATA[test]]></attach>\x0A<bank_type><![CDATA[CMB_DEBIT]]></bank_type>\x0A<cash_fee><![CDATA[15920]]></cash_fee>\x0A<fee_type><![CDATA[CNY]]></fee_type>\x0A<is_subscribe><![CDATA[Y]]></is_subscribe>\x0A<mch_id><![CDATA[1511221431]]></mch_id>\x0A<nonce_str><![CDATA[xu7fg34zvw614kz4zf0i4u6cenefxt6l]]></nonce_str>\x0A<openid><![CDATA[oSIFp1Nyh1u0FvVS0kfZ4U_GqTxo]]></openid>\x0A<out_trade_no><![CDATA[2020032616164084539]]></out_trade_no>\x0A<result_code><![CDATA[SUCCESS]]></result_code>\x0A<return_code><![CDATA[SUCCESS]]></return_code>\x0A<sign><![CDATA[B7566060872374BC069C65F8D84F2088]]></sign>\x0A<time_end><![CDATA[20200326161648]]></time_end>\x0A<total_fee>15920</total_fee>\x0A<trade_type><![CDATA[JSAPI]]></trade_type>\x0A<transaction_id><![CDATA[4200000484202003268939296395]]></transaction_id>\x0A</xml>
+XML;
+var_dump(strlen($xml));
