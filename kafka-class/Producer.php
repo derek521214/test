@@ -8,9 +8,6 @@
 
 namespace  rdkafka\kafka;
 
-
-use mysql_xdevapi\Exception;
-
 class Producer
 {
 
